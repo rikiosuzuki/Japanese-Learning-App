@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Grammar 1"
+            android:textSize="24sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Example vocabulary words -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Introduction to Japanese Sentence Structure Key Concept: Japanese sentences typically follow a Subject-Object-Verb (SOV) order, unlike English, which follows a Subject-Verb-Object (SVO) order. Example: I eat sushi. In Japanese, it would be structured as I sushi eat (私は寿司を食べます, Watashi wa sushi o tabemasu)."
+            android:textSize="15sp"
+            android:paddingBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            app:srcCompat="@drawable/img_10" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            app:srcCompat="@drawable/img_11" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:onClick="handleGoBack"/>
+
+
+    </LinearLayout>
+</ScrollView>

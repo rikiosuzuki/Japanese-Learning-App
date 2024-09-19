@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is the japanese word for cat?"
+            android:textSize="24sp"/>
+
+        <RadioGroup
+            android:id="@+id/answers_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="猫（ねこ）"/>
+
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="犬（いぬ）"/>
+
+            <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蛇（ヘビ）"/>
+
+            <RadioButton
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="うさぎ"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is the japanese word for chair?"
+            android:textSize="24sp"/>
+
+        <RadioGroup
+            android:id="@+id/answers_group2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "机（つくえ）"/>
+
+            <RadioButton
+                android:id="@+id/option6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鍵（かぎ）"/>
+
+            <RadioButton
+                android:id="@+id/option7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="椅子（いす）"/>
+
+            <RadioButton
+                android:id="@+id/option8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蝉（せみ）"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is the japanese word for water bottle?"
+            android:textSize="24sp"/>
+
+        <RadioGroup
+            android:id="@+id/answers_group3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水ボトル"/>
+
+            <RadioButton
+                android:id="@+id/option10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="氷（こおり）"/>
+
+            <RadioButton
+                android:id="@+id/option11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="音楽（おんがく）"/>
+
+            <RadioButton
+                android:id="@+id/option12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="青（あお）"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True or False Does the word 感じ(kan-ji)　mean feeling?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:id="@+id/answers_group4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="true"/>
+
+            <RadioButton
+                android:id="@+id/option14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="false"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True or False Does the word 食べる(taberu)　mean to share?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:id="@+id/answers_group6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="true"/>
+
+            <RadioButton
+                android:id="@+id/option18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="false"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True or False Does the word 死ぬ(し-ぬ)　mean feeling?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:id="@+id/answers_group5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="true"/>
+
+            <RadioButton
+                android:id="@+id/option16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="false"/>
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="submitAnswer"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:onClick="handleGoBack"/>
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

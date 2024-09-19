@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Grammar 2: Japanese verb conjugation"
+            android:textSize="24sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Example vocabulary words -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Godan Verbs (五段動詞)
+Also known as Group 1 verbs, these verbs have five different stem forms that change according to the verb's ending when conjugated. Here's how to conjugate them:
+
+        Non-past (Present and Future): No change for dictionary form (e.g., 書く kaku - to write).
+        Past: Change the final -u to -た or -だ (e.g., 書いた kaita - wrote).
+        Negative: Change the final -u to -わない (e.g., 書かない kakanai - do not write).
+        Te-form: Change the final -u to -て or -で (e.g., 書いて kaite - writing).
+        Potential: Change the final -u to -える (e.g., 書ける kakeru - can write)."
+            android:textSize="15sp"
+            android:paddingBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            app:srcCompat="@drawable/img_12" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ichidan Verbs (一段動詞)
+Also known as Group 2 verbs, these verbs are simpler to conjugate because they usually end in -る:
+        Non-past: Dictionary form (e.g., 食べる taberu - to eat).
+        Past: Change -る to -た (e.g., 食べた tabeta - ate).
+        Negative: Change -る to -ない (e.g., 食べない tabenai - do not eat).
+        Te-form: Change -る to -て (e.g., 食べて tabete - eating).
+        Potential: Change -る to -られる (e.g., 食べられる taberareru - can eat)."/>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            app:srcCompat="@drawable/img_13" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:onClick="handleGoBack"/>
+
+
+    </LinearLayout>
+</ScrollView>

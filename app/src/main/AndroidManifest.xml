@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Suzuki_RFinalProject"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDp5Vld_hjkagyAQ6UoK7HmsfabuDtTf5o"/>
+        <activity
+            android:name=".GeographyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".identifyFamousPeopleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grammar2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Grammar1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".IdentifyFoodGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VocabMatchingGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VocabularyTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Vocabulary3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Vocabulary2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Vocabulary1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JapanesePronunciationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasicKatakanaQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasicKatakana"
+            android:exported="false" />
+        <activity
+            android:name=".BasicHiraganaQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasicHiragana"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons"
+            android:exported="false" />
+        <activity
+            android:name=".DailyChallenges"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/Theme.Suzuki_RFinalProject" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

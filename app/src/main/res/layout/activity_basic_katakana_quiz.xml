@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is the Katakana for 'a'?"
+            android:textSize="24sp"/>
+
+        <RadioGroup
+            android:id="@+id/answers_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ヨ"/>
+
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ニ"/>
+
+            <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ア"/>
+
+            <RadioButton
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="セ"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is the Hiragana for 'shi'?"
+            android:textSize="24sp"/>
+
+        <RadioGroup
+            android:id="@+id/answers_group2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ド"/>
+
+            <RadioButton
+                android:id="@+id/option6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="シ"/>
+
+            <RadioButton
+                android:id="@+id/option7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="し"/>
+
+            <RadioButton
+                android:id="@+id/option8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ノ"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which word is katakana?"
+            android:textSize="24sp"/>
+
+        <RadioGroup
+            android:id="@+id/answers_group3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/option9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="おねがい"/>
+
+            <RadioButton
+                android:id="@+id/option10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="こんにちは"/>
+
+            <RadioButton
+                android:id="@+id/option11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ありがとう"/>
+
+            <RadioButton
+                android:id="@+id/option12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="サメ"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="submitAnswer"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:onClick="handleGoBack"/>
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

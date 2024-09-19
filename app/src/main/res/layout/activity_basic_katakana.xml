@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BASIC KATAKANA"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="368dp"
+            android:layout_height="285dp"
+            app:srcCompat="@drawable/img_2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="This alphabet katakana is very similar to hiragana! The pronounciation is even the same. Basically, katana is just hiragana but it is only used with foreign words like パン pan (bread) or サッカー sokkaa (soccer)" />
+        <Button
+            android:id="@+id/takeQuizKatakana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Quiz"/>
+        <Button
+            android:id="@+id/goBackButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"/>
+
+    </LinearLayout>
+</ScrollView>
